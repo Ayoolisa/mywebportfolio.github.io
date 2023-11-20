@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="icon" href="../images/A logo.png">
+
+
+    <title>My web portfolio</title>
+</head>
+<body>
+
+    <!-- header section begins here  -->
+
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <img href="" src="../images/my_demo_bg/aycoder logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>frontend web developer</p>
+                <h1>hi, i'm <span>ayomide </span> </br>  olisa from nigeria</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- header section ends here  -->
+
+    <!-- about section begins here  -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="../images/pfp_black_bg.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">about me</h1>
+                    <p>
+                        I'm a motivated Web Developer with an extensive knowledge of web development, design, and 
+                        coding, as well as experience in a wide range of programming languages, frameworks, and 
+                        tools. Proven success in developing and deploying applications, websites, and web services. 
+                        Highly organized and detail-oriented, with a knack for finding creative solutions to challenging 
+                        problems. As a results-driven Web Developer, I have developed cutting-edge websites and web 
+                        applications. Expertise in HTML, CSS, JavaScript, and other web technologies. 
+                        Skilled at developing custom solutions to fit client needs while delivering high-quality products 
+                        on time and under budget.
+                    </p>
+
+                    <div class="tabs-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">educaton</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>designing web/app interfaces</li>
+                            <li><span>web development</span><br>web app development</li>
+                            <li><span>graphics design</span><br>visually appealing designs</li>
+                            <li><span></span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - present</span><br>online training at ALX</li>
+                            <li><span>2023 - present</span><br>internship at national <br>lottery nigeria</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2012 - 2018</span><br>high school </li>
+                            <li><span>2019 - present</span><br>b.tech from FUTMINNA</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- about section ends here  -->
+
+    <!-- services section begins here  -->
+    
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">my services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>web design</h2>
+                    <p>Crafting visually appealing and user-centric websites to elevate your online presence and engage your audience effectively.</p>
+                    <a href="#">learn more <i class="fas fa-external-link" id="lrn_more_link"></i></a>
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Crafting seamless, user-centric interfaces for an exceptional digital experience. Elevate your brand with intuitive UI/UX design.</p>
+                    <a href="#">learn more <i class="fas fa-external-link" id="lrn_more_link"></i></a>
+                </div>
+
+                <div>
+                    <i class="fab fa-artstation"></i>
+                    <h2>graphics design</h2>
+                    <p>Transforming ideas into visual masterpieces through creative and impactful graphic design services.</p>
+                    <a href="#">learn more <i class="fas fa-external-link" id="lrn_more_link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services section ends here  -->
+
+    <!-- portfolio section starts here  -->
+
+    <div id="portfolio">
+        
+        <div class="container">
+            <h1 class="sub-title">my work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="../images/client_kff.png" alt="">
+                    <div class="layer">
+                        <h3>a pizza restaurant website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione exercitationem dolore molestias.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="../images/client_kolafash.png" alt="">
+                    <div class="layer">
+                        <h3>a fashion brand website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione exercitationem dolore molestias.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="../images/client_shoppify.png" alt="">
+                    <div class="layer">
+                        <h3>an online shopping website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione exercitationem dolore molestias.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- portfolio section ends here  -->
+
+    <!-- contact section starts here  -->
+
+    <div id="contact">
+
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fas fa-envelope"></i>lekelisa247@gmail.com</p>
+                    <p><i class="fas fa-phone"></i>+2347067521016</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <a href="../images/my_demo_bg/My resume CV.pdf" download class="btn btn2">download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="enter your name" required>
+                        <input type="email" name="email" placeholder="enter your email" required>
+                        <textarea name="message" rows="6" placeholder="enter your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+        <p>copyright 2023 &copy; aycoder. | all rights reserved</p>
+        </div>
+    </div>
+    <!-- contact section ends here  -->
+
+
+    <!-- custom js file  -->
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
