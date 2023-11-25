@@ -275,36 +275,6 @@ nav .fas {
     width: 100%;
 }
 
-.header_img-Hover {
-    position: absolute;
-    top: 0;
-    right: 3rem;
-    width: 600px;
-    height: 100%;
-    opacity: 0;
-    background: transparent;
-    transition: 3s;
-    border-radius: 50%;
-}
-
-.header_img-Hover:hover {
-    background-color: var(--bg-color);
-    opacity: .4;
-}
-
-.header_img-Hover::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--bg-color);
-    animation: showRight 1s ease forwards;
-    animation-delay: 3s;
-    z-index: 100;
-}
-
 
 
 /* about section  */
