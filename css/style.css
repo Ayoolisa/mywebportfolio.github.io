@@ -63,11 +63,30 @@ border-radius: 10px;
 }
 
 #header .container .navbar .logo {
-    width: 10%;
-    height: 10%;
+    font-size: 3rem;
+    color: var(--text-color);
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
+    position: relative;
+}
+
+.logo span {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: showRight 1s ease forwards;
+    animation-delay: .4s;
 }
 
 .navbar ul li {
@@ -124,9 +143,35 @@ nav .fas {
     font-size: 4rem;
 }
 
+.header-text p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.3s;
+}
+
+
 .header-text h1 {
-    font-size: 80px;
-    margin-top: 20px;
+    font-size: 8rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.header-text h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: showRight 1s ease forwards;
+    animation-delay: 1s;
 }
 
 .header-text h1 span {
@@ -141,12 +186,27 @@ nav .fas {
     margin-bottom: 2rem;
     gap: 1rem;
     color: var(--gray);
+    position: relative;
+}
+
+.header-text #intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: showRight 1s ease forwards;
+    animation-delay: 2s;
 }
 
 .header-text .btn-box {
     display: inline;
     width: 50%;
+    position: relative;
 }
+
 
 .btn-box #btn {
     display: inline-block;
@@ -155,8 +215,21 @@ nav .fas {
     font-weight: 600;
     cursor: pointer;
     transition: background .5s;
-    position: relative;
 }
+
+.header-text .btn-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.9s;
+    z-index: 2;
+}
+
 
 .btn-box a {
     position: relative;
@@ -178,7 +251,7 @@ nav .fas {
 .btn-box #btn:nth-child(2) {
     background-color: transparent;
     color: var(--text-color);
-    margin-left: 8rem;
+    margin-left: 6rem;
 }
 
 .btn-box #btn:nth-child(2)::before {
@@ -201,6 +274,37 @@ nav .fas {
 .btn-box a:hover::before {
     width: 100%;
 }
+
+.header_img-Hover {
+    position: absolute;
+    top: 0;
+    right: 3rem;
+    width: 600px;
+    height: 100%;
+    opacity: 0;
+    background: transparent;
+    transition: 3s;
+    border-radius: 50%;
+}
+
+.header_img-Hover:hover {
+    background-color: var(--bg-color);
+    opacity: .4;
+}
+
+.header_img-Hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: showRight 1s ease forwards;
+    animation-delay: 3s;
+    z-index: 100;
+}
+
 
 
 /* about section  */
@@ -550,7 +654,12 @@ form .btn2 {
 }
 
 
-
+/* keyframes animation  */
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}
 
 
 
