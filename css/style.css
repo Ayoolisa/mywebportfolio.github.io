@@ -905,6 +905,10 @@ form .btn2 {
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
         margin-top: 50px;
     }
+
+    .work-list {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
 }
 
 @media only screen and (max-width: 380px) {
