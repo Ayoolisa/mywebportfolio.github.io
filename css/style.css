@@ -832,15 +832,15 @@ form .btn2 {
     }
 
     .header-text {
-        margin-top: 90%;
+        margin-top: 40%;
     }
 
     .header-text p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .header-text h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .header-text h1 span {
@@ -848,7 +848,7 @@ form .btn2 {
     }
 
     .sub-title {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .about-col-1 {
