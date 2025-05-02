@@ -182,6 +182,7 @@ nav .fas {
 .header-text #intro {
     font-size: 3rem;
     font-weight: 300;
+    text-transform: none;
     margin-top: 2rem;
     margin-bottom: 2rem;
     gap: 1rem;
