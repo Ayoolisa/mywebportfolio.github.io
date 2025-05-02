@@ -913,6 +913,10 @@ form .btn2 {
     #portfolio .container #btn {
         margin: 2rem;
     }
+
+    .copyright {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 380px) {
