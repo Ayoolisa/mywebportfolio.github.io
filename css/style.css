@@ -834,14 +834,15 @@ form .btn2 {
 
     .header-text {
         margin-top: 20%;
+        width: 100%
     }
 
     .header-text #intro {
-    font-size: 3rem;
+        font-size: 3rem;
     }
 
     .btn-box #btn {
-    font-size: 1rem;
+    font-size: 2rem;
     }
 
     .btn-box a {
