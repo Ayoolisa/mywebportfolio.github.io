@@ -861,6 +861,10 @@ form .btn2 {
         font-size: 36px;
     }
 
+    .btn-box #btn:nth-child(2) {
+        margin-left: 3rem;
+    }
+
     .header-text .btn-box {
         width: 100%;
     }
