@@ -837,7 +837,7 @@ form .btn2 {
     }
 
     .header-text #intro {
-    font-size: 2.5rem;
+    font-size: 3rem;
     }
 
     .btn-box #btn {
@@ -853,11 +853,15 @@ form .btn2 {
     }
 
     .header-text h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .header-text h1 span {
         font-size: 25px;
+    }
+
+    .header-text .btn-box {
+        width: 100%;
     }
 
     .sub-title {
