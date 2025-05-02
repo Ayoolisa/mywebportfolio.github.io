@@ -829,6 +829,7 @@ form .btn2 {
 
     #header {
         height: 80vh;
+        background: var(--bg-color);
     }
 
     .header-text {
