@@ -909,6 +909,10 @@ form .btn2 {
     .work-list {
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     }
+
+    #portfolio .container #btn {
+        margin: 4rem 100%;
+    }
 }
 
 @media only screen and (max-width: 380px) {
